@@ -4,6 +4,7 @@ import { ButtonComponent } from '../button/button.component';
 import { PersonalInfoComponent } from '../personal-info/personal-info.component';
 import { SelectPlansComponent } from '../select-plans/select-plans.component';
 import { AddOnsComponent } from '../add-ons/add-ons.component';
+import { SummaryComponent } from '../summary/summary.component';
 
 @Component({
   selector: 'app-card',
@@ -14,6 +15,7 @@ import { AddOnsComponent } from '../add-ons/add-ons.component';
     PersonalInfoComponent,
     SelectPlansComponent,
     AddOnsComponent,
+    SummaryComponent,
   ],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css',
